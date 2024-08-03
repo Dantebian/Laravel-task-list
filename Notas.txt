@@ -1,0 +1,18 @@
+php artisan serve -> Levanta el servidor local
+
+El archivo .env es donde se configura la conexion a la bd local. Para servidores tambien se hace desde database.php
+
+php artisan make:model -> Crea un modelo en el proyecto. Si le indicamos el -m al final también crea un archivo de migracion
+
+php artisan migrate -> Se usa para actualizar los datos que hayamos agregado por ejemplo en los modelos creados.
+
+php artisan migrate:rollback -> Sirve para que retroceda a la ultima actualización, es decir si migramos y queremos volver atras usamos esto.
+
+php artisan db:seed -> Sirve para cargar los datos en la bd que están en los seeder del proyecto
+
+php artisan make:factory -> Sirve para crear un factory en el proyecto
+
+php artisan migrate:refresh --seed -> Es como el artisan db:seed, solo que en vez de volver a agregar registros en la bd, los actualiza.
+Es decir borra los que estaban y agrega estos nuevos.
+
+
