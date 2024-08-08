@@ -15,4 +15,5 @@ php artisan make:factory -> Sirve para crear un factory en el proyecto
 php artisan migrate:refresh --seed -> Es como el artisan db:seed, solo que en vez de volver a agregar registros en la bd, los actualiza.
 Es decir borra los que estaban y agrega estos nuevos.
 
+php artisan route:list -> Muestra todas las rutas definidas incluyendo sus nombres
 
